@@ -22,7 +22,7 @@
     "reveal.js": "3.6.0"
   },
   "scripts": {
-    "clean": "rm -rf dist",
+    "clean": "rm -rf docs",
     "build": "npm run clean && webpack",
     "start": "webpack-dev-server"
   }

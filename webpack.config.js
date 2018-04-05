@@ -8,7 +8,7 @@ module.exports = {
 		app: './main.js'
 	},
 	output: {
-		path: path.join(__dirname, 'dist'),
+		path: path.join(__dirname, 'docs'),
 		filename: '[name].[hash].js'
 	},
 	externals: {
