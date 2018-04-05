@@ -2,7 +2,7 @@
   "name": "pixelbeat",
   "version": "0.0.0",
   "description": "Slides for the Framer NYC Meetup",
-  "main": "dist/bundle.js",
+  "main": "docs/bundle.js",
   "engines": {
     "node": ">=9.0.0"
   },

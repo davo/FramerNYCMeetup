@@ -1,7 +1,6 @@
 # Local Instance #
 ##################
 
-node_modules/
 artwork/
 yarn-error.log
 
