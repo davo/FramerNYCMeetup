@@ -1,7 +1,7 @@
 # Local Instance #
 ##################
 
-artwork/
+/artwork
 yarn-error.log
 
 # Compiled source #
