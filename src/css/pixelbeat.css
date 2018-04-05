@@ -778,36 +778,6 @@ body {
         border-color: white;
         box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
 
-/*********************************************
- * NAVIGATION CONTROLS
- *********************************************/
-.reveal .controls .navigate-left,
-.reveal .controls .navigate-left.enabled {
-        border-right-color: white; }
-
-.reveal .controls .navigate-right,
-.reveal .controls .navigate-right.enabled {
-        border-left-color: white; }
-
-.reveal .controls .navigate-up,
-.reveal .controls .navigate-up.enabled {
-        border-bottom-color: white; }
-
-.reveal .controls .navigate-down,
-.reveal .controls .navigate-down.enabled {
-        border-top-color: white; }
-
-.reveal .controls .navigate-left.enabled:hover {
-        border-right-color: white; }
-
-.reveal .controls .navigate-right.enabled:hover {
-        border-left-color: white; }
-
-.reveal .controls .navigate-up.enabled:hover {
-        border-bottom-color: white; }
-
-.reveal .controls .navigate-down.enabled:hover {
-        border-top-color: white; }
 
 /*********************************************
  * PROGRESS BAR
