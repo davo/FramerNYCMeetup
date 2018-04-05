@@ -21,5 +21,5 @@ photo.draggable.vertical = false
 
 # Set dragging constraints 
 photo.draggable.constraints =
-	x: 0
-	width: photo.width / 2
+	x: -69
+	width: photo.width

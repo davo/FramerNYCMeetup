@@ -17,7 +17,7 @@ appendScript = (src) ->
 appendScript('https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js')
 
 # Set background
-bg = new BackgroundLayer backgroundColor: "#FFFFFF"
+Canvas.backgroundColor = "#FFFFFF"
 
 # New scroll component
 scroll = new ScrollComponent
@@ -28,11 +28,11 @@ scroll.size = Screen.size
 # Fix dragging behaviour to vertical only
 scroll.scrollHorizontal = false
 
-
 # Enable mouse scrolling
+scroll.mouseWheelEnabled = true
 
 
-names = ["Gonzalo", "Monica", "Vincent"]
+names = ["Adi", "Vincent"]
 # 
 # for name, i in names
 # 	print i

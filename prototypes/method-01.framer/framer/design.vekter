@@ -1,11 +1,11 @@
 {
-  "version" : 10,
   "root" : {
-    "id" : ">Y0a$VwI",
     "__class" : "CanvasNode",
-    "parentid" : null,
     "children" : [
 
-    ]
-  }
+    ],
+    "id" : ">Y0a$VwI",
+    "parentid" : null
+  },
+  "version" : 20
 }

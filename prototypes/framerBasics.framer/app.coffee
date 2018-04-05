@@ -8,8 +8,6 @@
 
 # This is a comment
 
-
-
 # Variables
 string = "Hello there, "
 number = 42
@@ -17,7 +15,7 @@ number = 42
 framerSaysHelloWorld = (message, person) ->
 	print message + person
 	
-# framerSaysHelloWorld(string, 'Vincent')
+# framerSaysHelloWorld(string, 'Laine')
 
 sayHi = (message) ->
 	print message
@@ -29,7 +27,7 @@ sayHi = (message) ->
 
 # Set background
 
-bkg = new BackgroundLayer backgroundColor: "rgba(0, 85, 255, 0.9)"
+Canvas.backgroundColor = "rgba(0, 85, 255, 0.9)"
 
 # Layers are the building blocks for pretty much everything in Framer.
 # Create layer
@@ -37,7 +35,6 @@ layerA = new Layer
 	backgroundColor: "#fff"
 	borderRadius: 4
 	opacity: 0
-	
 	scale: 0.5
 
 	
@@ -48,9 +45,9 @@ layerA.center()
 
 # Trigger animation with a delay
 Utils.delay 0.5, ->
-layerA.animate
-	opacity: 0.9
-	scale: 1
+	layerA.animate
+		opacity: 0.9
+		scale: 1
 
 # Create a new state 
 layerA.states =
@@ -91,4 +88,4 @@ constraints.center()
  
 # Set constraints
 # Frame: x, y, width, height 
-# layerA.draggable.constraints = constraints.frame
+layerA.draggable.constraints = constraints.frame
